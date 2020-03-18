@@ -1,0 +1,215 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    transition:500ms ease;
+}
+
+.navbar a {
+    margin-right: 20px;
+}
+
+.navbar.scrolled{
+    background:#fff !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    padding: 30px;
+  }
+
+div.page {
+min-height:1000px;
+}
+
+.scrolled a {
+    color: #000 !important;
+    margin-right: 20px;
+}
+
+.scrolled .active a{
+    color: #17B2D2 !important;
+}
+
+.header {
+    background: #17B2D2;
+}
+
+.text-blue {
+    color: #17B2D2;
+}
+
+.banner-caption {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    color: #fff;
+}
+
+.btn-white {
+    background: #fff !important;
+    color: #17B2D2 !important;
+}
+
+.btn-white:hover {
+    opacity: .9;
+}
+
+.btn-outline-white {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+.btn-outline-white:hover {
+    background: #fff !important;
+    color: #17B2D2 !important;
+}
+
+.btn-blue {
+    background: #17B2D2 !important;
+    color: #fff !important;
+}
+
+.btn-blue:hover {
+    opacity: .9;
+}
+
+.btn-outline-blue {
+    border: 1px solid #17B2D2 !important;
+    color: #17B2D2 !important;
+}
+
+.btn-outline-blue:hover {
+    background: #17B2D2 !important;
+    color: #fff !important;
+}
+
+.caption-me {
+    padding-top: 100px;
+}
+
+.caption-me p {
+    font-size: 18px;
+}
+
+.caption-me li {
+    font-size: 18px;
+}
+
+.organisasi {
+    margin-top: 135px;
+}
+
+.circle-blue {
+    background: #17B2D2;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.pendidikan-card {
+    transition: 500ms ease-in;
+}
+
+.pendidikan-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.circle-blue h3 {
+    padding-top: 30%;
+    color: #fff;
+}
+
+.bg-f8 {
+    background: #f8f8f8;
+}
+
+.portfolio-page {
+    margin: 150px 0;
+    /* height: 1000px; */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #17B2D2 !important;
+}
+
+.line {
+    border: 5px solid #17B2D2;
+    border-radius: 100px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.line-white {
+    border: 5px solid #fff;
+    border-radius: 100px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.grey {
+    background-color: #f8f8f8;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    transition:500ms ease;
+}
+
+.grey:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.portfolio {
+    background: #17B2D2;
+    color: #fff;
+    padding: 70px;
+    border-radius: 20px;
+    margin: 300px 0;
+}
+
+.portfolio .img-porto {
+    margin-top: -200px;
+}
+
+.logo-exp {
+    margin-top: -80px;
+}
+
+.footer {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+/* mobile & tabs */
+
+@media (max-width: 576px) and (max-width: 767.98px) {
+
+    .navbar {
+        background: #fff;
+        color: #000;
+    }
+
+    .banner-caption {
+        height: 300px;
+        margin-top: 100px;
+        position: initial;
+        left: 20%;
+        top: 300px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .grey {
+        margin: 0 0 10px 0;
+    }
+
+    .portfolio {
+        padding: 30px;
+    }
+}
